@@ -55,12 +55,7 @@ const userExist = async (name, password) => {
     }else{ alert("l'utilisateur existe deja")}
   }
 
- /* const connexion = document.querySelector("#connexion")
-connexion.addEventListener('submit',()=>{
-    const username = connexion.username.value;
-    const password = connexion.password.value;
-    signInFirebase(username,password);
-})*/
+ 
 
 // fonction pour créer une collection (CREATE)
 const createDocument = async (collectionName, newObj) => {
